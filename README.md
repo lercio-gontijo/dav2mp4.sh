@@ -2,6 +2,7 @@ Este bash-script precisa que você crie uma chave criptografada pública e copie
 Programa usa. 
 
 ssh-keygen -t rsa
+
 ssh-copy-id -i ~/.ssh/id_rsa.pub user1@$ip
 
 O programa info.php que fica no servidor no meu caso teotonios.com.br/cftv faz require em 'banco.php' que deve ter as suas credenciais para o MySql
