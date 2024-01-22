@@ -1,0 +1,94 @@
+body { 
+   font-family: Helvetica;
+   font-size: 16px;
+}  
+h1, h2 { 
+   color:blue; 
+   margin: 0;
+}
+th { 
+   font-size: 18px;
+   font-weight: bold;
+   text-align: center;
+   color: blue;
+} 
+form { margin: 0px; }
+.videobox {
+   display: block;
+   float: left;
+   width: 30vw;
+   height: 26vh;
+   padding: 5px;
+   border: solid 1px;
+   box-shadow: 3px 3px #888;
+   text-align: center;
+   margin-right: 12px;
+   margin-bottom: 11px;
+   background: #fff;
+}
+/*video { display:block; width: 19rem; height: auto; } */
+
+video { 
+   display: block; 
+   width: 92%; 
+   height: auto; 
+   margin-left: auto;
+   margin-right: auto;
+} 
+
+.ajuda { 
+   max-width: 32px; 
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   margin: 8px;
+   cursor: pointer;
+}
+#info { 
+   display: none; 
+   width: 77%; 
+   height: 10rem; 
+   margin-bottom: 6px;
+   padding: 7px;
+}
+#up { max-width: 22px; cursor: pointer; }
+#enviar { 
+   font-weight: bold; 
+   color: blue; 
+   font-size: 22px;
+}
+.tdr { text-align: right; }
+.trans { background: #00ff0047; }
+.alto { height: 28px; background: #ffff0047; }
+.senha { margin: 4px; }
+.branco { background: #fff; }
+#sub { margin: 6px; }
+#del {
+   position: absolute;
+   margin: 8px;
+   top: 0px;
+   right: 0px;
+}
+td { 
+   width: 60px; 
+   padding: 5px;
+   text-justify: justify;
+}
+
+table {
+   box-shadow: 3px 3px #888;
+   width: 53%;
+}
+select { 
+   margin-right: 7px;
+   font-size: 22px;
+   color: blue;
+}
+button {
+   margin-right: 10px;
+   font-size: 22px;
+   color: green;
+}
+a { text-decoration: none; color: black; }
+a:visited { color: blue; }
+a:hover { color: red; }
